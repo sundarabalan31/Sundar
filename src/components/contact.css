@@ -1,0 +1,114 @@
+.contact-section {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background: #001a33;
+  color: white;
+  font-family: "Poppins", sans-serif;
+  overflow: hidden;
+}
+
+.contact-container {
+  display: flex;
+  width: 100%;
+  max-width: 1800px;
+}
+
+.contact-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  background: linear-gradient(135deg, #001a33 0%, #002a5c 100%);
+}
+
+.contact-title {
+  font-size: 2.8rem;
+  font-weight: 600;
+  color: #d4a056;
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #f0f0f0;
+  max-width: 550px;
+  margin-bottom: 35px;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 5px;
+  margin-top: 30px;
+}
+
+.icon-link {
+  font-size: 1.5rem;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 50%;
+  color: #fff;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(8px);
+  margin-right: 15px;
+}
+.icon-link:hover {
+  background: rgba(255, 255, 255, 0.3);
+  color: #003366;
+  transform: translateY(-5px);
+}
+.contact-right {
+  flex: 1.2;
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.contact-details {
+  margin-top: 25px;
+  font-size: 1rem;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+.contact-details p {
+  margin: 4px 0;
+}
+
+.email-link {
+  color: #d4a056;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 992px) {
+  .contact-container {
+    flex-direction: column-reverse;
+  }
+
+  .contact-left {
+    text-align: center;
+    align-items: center;
+    padding: 60px 30px;
+  }
+
+  .contact-right {
+    height: 50vh;
+  }
+}
