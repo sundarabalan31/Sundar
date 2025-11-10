@@ -125,7 +125,7 @@
   }
 
   .about-heading {
-    font-size: 1.8rem;
+    font-size: 30px;
   }
 
   .accordion-header h3 {
@@ -184,7 +184,7 @@
   }
 
   .about-heading {
-    font-size: 1.4rem;
+    font-size: 29px;
   }
 
   .about-image img {
@@ -201,7 +201,7 @@
 }
 @media (max-width: 400px) {
   .about-heading {
-    font-size: 1.2rem;
+    font-size: 28px;
   }
 
   .accordion-header h3 {

@@ -112,3 +112,62 @@
     height: 50vh;
   }
 }
+@media (max-width: 600px) {
+  .contact-left {
+    padding: 40px 20px;
+  }
+
+  .contact-title {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+  }
+
+  .contact-message {
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+  }
+
+  .contact-details {
+    font-size: 0.9rem;
+  }
+
+  .contact-icons {
+    justify-content: center;
+    gap: 12px;
+  }
+
+  .icon-link {
+    width: 42px;
+    height: 42px;
+    font-size: 1.2rem;
+  }
+
+  .contact-right {
+    height: 40vh;
+  }
+}
+
+/* ---------- EXTRA SMALL (<=400px) ---------- */
+@media (max-width: 400px) {
+  .contact-title {
+    font-size: 1.6rem;
+  }
+
+  .contact-message {
+    font-size: 0.9rem;
+  }
+
+  .contact-details p {
+    font-size: 0.85rem;
+  }
+
+  .icon-link {
+    width: 38px;
+    height: 38px;
+    font-size: 1.1rem;
+  }
+
+  .contact-right {
+    height: 35vh;
+  }
+}

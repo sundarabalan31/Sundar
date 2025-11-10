@@ -204,7 +204,6 @@ const Publications = () => {
         "On the generalization ability of probabilistic neural networks for hyperspectral remote sensing of absorption properties across optically complex waters",
       authors:
         "Werther, M., Gurlin, D., Burggraaff, O., & Balasubramanian, S.V. (2025)",
-      journal: "DOI:10.5281/zenodo.14893798",
       link: "https://doi.org/10.5281/zenodo.14893798",
     },
     {
@@ -212,7 +211,6 @@ const Publications = () => {
         "GLORIA - A global dataset of remote sensing reflectance and water quality from inland and coastal waters",
       authors:
         "Lehmann, M. K., Gurlin, D., Pahlevan, N., Alikas, K., Anstee, J. M., Balasubramanian, S.V., et al. (2022)",
-      journal: "DOI:10.1594/PANGAEA.948492",
       link: "https://doi.org/10.1594/PANGAEA.948492",
     },
   ];

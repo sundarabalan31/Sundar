@@ -114,4 +114,10 @@
   .nav-links li {
     padding: 10px 0;
   }
+  .logo{
+    font-size: 13px;
+  }
+  .nav-container{
+    padding: 30px 10px;
+  }
 }

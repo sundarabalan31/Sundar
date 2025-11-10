@@ -1,8 +1,8 @@
 import React from "react";
 import "./Contact.css";
 import { FaLinkedin, FaEnvelope, FaGithub,FaFilePdf  } from "react-icons/fa";
-import oceanVideo from "../assets/images/ocean.mp4";
 import { GiGraduateCap } from "react-icons/gi"; 
+import oceanVideo from "../assets/images/deep.mp4";
 const Contact = () => {
   return (
     <section className="contact-section" id="contact">
@@ -74,14 +74,7 @@ const Contact = () => {
             </div>
         </div>
         <div className="contact-right">
-          <video
-            className="contact-video"
-            src={oceanVideo}
-            autoPlay
-            loop
-            muted
-            playsInline
-          ></video>
+<video src={oceanVideo} autoPlay loop muted playsInline />
         </div>
       </div>
     </section>

@@ -194,13 +194,35 @@
   font-size: 0.85rem;
 }
 @media (max-width: 768px) {
+  .tabs {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    gap: 10px;
+    justify-content: flex-start;
+    padding-bottom: 10px;
+    scrollbar-width: none; 
+  }
+
+  .tabs::-webkit-scrollbar {
+    display: none;
+  }
+
+  .tab-btn {
+    flex: 0 0 auto; 
+    white-space: nowrap;
+    font-size: 0.9rem;
+    padding: 10px 16px;
+  }
+
   .publications-heading {
     font-size: 1.8rem;
   }
 
-  .tab-btn {
-    font-size: 0.9rem;
-    padding: 8px 14px;
+  .publications-grid {
+    grid-template-columns: 1fr; 
   }
 
   .pub-card {

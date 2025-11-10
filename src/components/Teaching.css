@@ -116,6 +116,11 @@
   .accordion-content {
     font-size: 0.9rem;
   }
+  .accordion-content p {
+  margin-bottom: 12px; 
+  font-size: 15px;
+}
+
 }
 @media (max-width: 576px) {
   .teaching-section {
@@ -132,4 +137,78 @@
     align-items: flex-start;
     gap: 8px;
   }
+  .accordion-content p {
+  margin-bottom: 12px; 
+  font-size: 13px;
+}
+
+}
+@media (max-width: 769px) {
+  .teaching-section {
+    padding: 60px 15px;
+  }
+
+  .teaching-heading {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .accordion-item{
+    font-size: 10px;
+  }
+  .accordion-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .accordion-content p {
+  margin-bottom: 12px; 
+  font-size: 13px;
+}
+
+}
+@media (max-width: 400px) {
+  .teaching-section {
+    padding: 60px 15px;
+  }
+
+  .teaching-heading {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+  }
+  .accordion-title{
+    font-size: 18px;
+  }
+  .accordion-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .accordion-content p {
+  margin-bottom: 12px; 
+  font-size: 13px;
+}
+
+}
+@media (max-width: 332px) {
+  .teaching-section {
+    padding: 60px 15px;
+  }
+
+  .teaching-heading {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+  .accordion-title{
+    font-size: 14px;
+  }
+  .accordion-header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .accordion-content p {
+  margin-bottom: 12px; 
+  font-size: 13px;
+}
+
 }

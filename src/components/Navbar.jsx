@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="nav-container">
       <div className="nav-logo">
-        <a href="#home" onClick={() => setIsOpen(false)} style={{ textDecoration: "none", color: "inherit" }}>
+        <a href="#home" className="logo" onClick={() => setIsOpen(false)} style={{ textDecoration: "none", color: "inherit" }}>
           Sundarabalan. V. Balasubramanian
         </a>
       </div>
