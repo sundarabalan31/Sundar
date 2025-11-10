@@ -10,3 +10,19 @@
   box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);  
   transition: all 0.3s ease;
 }
+@media (max-width: 768px) {
+  .footer-simple {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-simple {
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 0.85rem;
+  }
+}

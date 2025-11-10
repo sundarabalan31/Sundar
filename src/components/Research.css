@@ -31,6 +31,8 @@
   color: #d4a056;
   margin-bottom: 40px;
   z-index: 2;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+
 }
 
 .research-container {
@@ -71,8 +73,8 @@
 
 .research-image img {
   width: 100%;
-  max-width: 350px;
-  height: 250px;
+  max-width: 390px;
+  height: 300px;
   border-radius: 15px;
   object-fit: cover;
   object-position: center;

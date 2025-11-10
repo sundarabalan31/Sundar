@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="nav-container">
       <div className="nav-logo">
         <a href="#home" className="logo" onClick={() => setIsOpen(false)} style={{ textDecoration: "none", color: "inherit" }}>
-          Sundarabalan. V. Balasubramanian
+          Sundarabalan .V. Balasubramanian
         </a>
       </div>
         <div

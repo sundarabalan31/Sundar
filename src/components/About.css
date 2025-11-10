@@ -118,6 +118,27 @@
   line-height: 1.6;
   white-space: pre-line;
 }
+.about-list {
+  list-style-type: disc;
+  margin-left: 20px;
+  padding-left: 15px;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+
+.about-list li {
+  margin-bottom: 8px;
+  transition: color 0.3s ease;
+}
+
+.about-list li:hover {
+  color: #d4a056;
+}
+
+.highlight {
+  color: #d4a056;
+  font-weight: 500;
+}
 
 @media (max-width: 1200px) {
   .about-container {

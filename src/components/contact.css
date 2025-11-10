@@ -31,6 +31,8 @@
   font-weight: 600;
   color: #d4a056;
   margin-bottom: 20px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6);
+
 }
 
 .contact-message {
@@ -146,8 +148,6 @@
     height: 40vh;
   }
 }
-
-/* ---------- EXTRA SMALL (<=400px) ---------- */
 @media (max-width: 400px) {
   .contact-title {
     font-size: 1.6rem;

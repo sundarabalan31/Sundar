@@ -12,7 +12,7 @@
 
 .nav-container {
   max-width: 1500px;
-  padding: 35px 25px;
+  padding: 30px 25px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,7 +81,9 @@
   .nav-toggle {
     display: flex;
   }
-
+.logo{
+    font-size: 18px;
+  }
   .nav-links {
     position: absolute;
     top: 70px;
@@ -114,10 +116,25 @@
   .nav-links li {
     padding: 10px 0;
   }
+  .nav-container{
+    padding: 30px 20px;
+  }
+}
+@media (max-width: 400px) {
+ 
   .logo{
-    font-size: 13px;
+    font-size: 15px;
   }
   .nav-container{
-    padding: 30px 10px;
+    padding: 27px 13px;
+  }
+}
+@media (max-width: 500px) {
+ 
+  .logo{
+    font-size: 17px;
+  }
+  .nav-container{
+    padding: 27px 13px;
   }
 }

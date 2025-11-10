@@ -1,7 +1,7 @@
 import React from "react";
 import "./Research.css";
-import research1 from "../assets/images/research1.jpg";
-import research2 from "../assets/images/research2.jpg";
+import research1 from "../assets/images/research2.jpg";
+import research2 from "../assets/images/research1.jpg";
 
 const Research = () => {
   return (
